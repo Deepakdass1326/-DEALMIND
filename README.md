@@ -1,6 +1,9 @@
 # 💸 DEALMIND AI: The Ultimate Negotiation Simulator
 
-![DEALMIND AI](https://img.shields.io/badge/Status-Project-brightgreen)
+![DEALMIND AI](https://img.shields.io/badge/Status-Live-brightgreen)
+[![Live Demo](https://img.shields.io/badge/Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://dealmind-eosin.vercel.app)
+[![API Status](https://img.shields.io/badge/API-Render-blue?style=for-the-badge&logo=render)](https://dealmind-mnpc.onrender.com/api/health)
+
 ![React](https://img.shields.io/badge/React-19-blue)
 ![Tailwind](https://img.shields.io/badge/Tailwind-v4-38B2AC)
 ![Gemini](https://img.shields.io/badge/AI-Google_Gemini-blueviolet)
@@ -16,6 +19,13 @@
 - **⚡ Advanced Tactics**: Don't just offer a price—**Justify** your bid, **Rapport** with the seller, **Delay** for pressure, or even try a bold **Bluff**.
 - **🛍️ Interactive Storefront**: Browse high-end products across multiple categories like Tech, Footwear, and Luxury.
 - **💎 Premium UI/UX**: A sleek, dark-mode professional interface built with **Framer Motion** for smooth, responsive animations and **Tailwind CSS v4** for cutting-edge styling.
+
+---
+
+## 🌐 Live Demo
+
+- **Frontend**: [https://dealmind-eosin.vercel.app](https://dealmind-eosin.vercel.app)
+- **Backend API**: [https://dealmind-mnpc.onrender.com/api](https://dealmind-mnpc.onrender.com/api)
 
 ---
 
