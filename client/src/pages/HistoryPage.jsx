@@ -63,7 +63,7 @@ const HistoryPage = () => {
         </motion.div>
 
         {/* History Content Wrapper */}
-        <div className="w-full">
+        <div className="w-full flex justify-center">
           {history.length === 0 ? (
             <motion.div
               initial={{ opacity: 0 }}
