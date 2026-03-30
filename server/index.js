@@ -55,8 +55,8 @@ app.get('/api/test', (req, res) => {
   res.json({ message: 'API root is working!' });
 });
 
-// Catch-all 404 for /api
-app.use('/api/:path*', (req, res) => {
+// Catch-all 404 for /api (Placed after all other /api routes)
+app.use('/api', (req, res) => {
   console.log(`404: No route found for ${req.method} ${req.originalUrl}`);
   res.status(404).json({
     success: false,
