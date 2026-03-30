@@ -30,3 +30,6 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Project specifically ignored
+product.md
