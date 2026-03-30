@@ -42,9 +42,27 @@ app.use(cors({
 app.use(express.json());
 
 // Routes
+console.log('Registering routes...');
 app.use('/api/auth', authRoutes);
+console.log(' - /api/auth registered');
 app.use('/api/game', gameRoutes);
+console.log(' - /api/game registered');
 app.use('/api/leaderboard', leaderboardRoutes);
+console.log(' - /api/leaderboard registered');
+
+// Test route to ensure /api is reachable
+app.get('/api/test', (req, res) => {
+  res.json({ message: 'API root is working!' });
+});
+
+// Catch-all 404 for /api
+app.use('/api/*', (req, res) => {
+  console.log(`404: No route found for ${req.method} ${req.originalUrl}`);
+  res.status(404).json({
+    success: false,
+    message: `API Route ${req.method} ${req.originalUrl} not found`,
+  });
+});
 
 // Health check
 app.get('/api/health', (req, res) => {
